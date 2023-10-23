@@ -1,0 +1,50 @@
+.container{
+    background-color: #0D0C1D;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.container input{
+    width: 400px;
+}
+
+.container h1{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container textarea{
+    width: 400px;
+}
+
+.container button{
+    width: 400px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 7px;
+    color: white;
+}
+.container button:hover{
+    padding: 0.6rem 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .container button{
+        width: 100%;
+    }
+    .container input{
+        width: 100%;
+    }
+    .container textarea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+.container{
+    background-color: #474973;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 7px;
+    width: 400px;
+}
+
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.info{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.username{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #51A3A3;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+    }
+}
